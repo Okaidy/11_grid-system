@@ -1,0 +1,148 @@
+/* Inserta tu codigo aqui */
+/*color para header*/
+.negro{
+	background-color: #333;
+    border-bottom: black solid 2px;
+}
+/*color para ultimos episodios y el borde*/
+.gris{
+	background-color: #E6E6E6;
+    padding-bottom: 20px;
+    border-bottom: gray solid 2px;
+}
+/*color para footer*/
+.grisf{
+	background-color: #585858;
+    padding: 15px;
+}
+/*quita las viñetas a las listas desordenadas*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;  /*controla el tamaño de los elemntos*/
+}
+/*quita lo subrayado centra da color al texto y un tamaño*/
+ a{
+    text-decoration:none; 
+    display: inline-block;
+    text-align: center;
+    color:#086A87;
+    font-size: 16px;
+}
+/*floto los elemento a la izquierda*/
+li {
+    float: left;
+}
+/*posiciona el menu ccentrado en el header le da color blanco al texto separacion entre ellas y tamaño*/
+header li a {
+    padding:6px 7px;
+    margin-top: 50px;
+    color: white;
+    font-size: 18px;
+}
+/*cambia de color el elemento de la lista cuando se coloca el mouse*/
+header li a:hover {
+    color: #086A87;
+}
+/*cambia las propieadades de more episodes*/
+#mas{
+    font-size:14px;
+    text-decoration: none;
+}
+/*separa el texto del header y las imagenes*/
+h2{
+    padding:15px 0px;
+}
+/*cambia el tamano de las imagenes y pone bordes*/
+section img{
+    width: 100%;
+    margin: 5px;
+    border: lightgray double 4px;
+}
+/*separa el ccontenido de las imagenes y aside de ultimos episodios*/
+/*separa las imagenes y aside de footer*/
+article{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/*tamaño de letra de ultimos episodios*/
+div.gris p{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*cambia tamaño de logo*/
+header img{
+    width: 50%;
+}
+/*cambia el tamaño de las columna de las imagenes para que quepas las cinco*/
+article section div.row div{
+    width: 20%;
+}
+/*da estacio ddel lado derecho de la ultima imagen al margen*/
+ article div.row>div.col-9{
+    padding-right: 70px;
+ }
+ /*mueve la posicion del menu*/
+ article div.col-3{
+    padding-top: 40px;
+ }
+ /*propiedades para lines divisoras de aside*/
+ hr{
+    border:1px solid #E6E6E6;
+    height:2.5px;
+    background-color:#E6E6E6;
+ }
+/*aleja de las lines divisoras el texto*/
+aside ul{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+/*separa icono de texto y asigna un mismo tamaño a los iconos*/
+aside img{
+    margin-right: 15px;
+    width: 12px;
+}
+/*hace mas delgada la linea de separacion*/
+#flaca{
+    height:1px;  
+}
+/*separa encabezados de la linea sepradora*/
+h4{
+    margin-bottom: 3px;
+}
+/*separa el parrafo de la linea separadora*/
+aside p{
+    padding-top: 20px;
+}
+span{
+    color: #086A87;
+}
+/*posiciona el menu ccentrado en el header le da color blanco al texto separacion entre ellas y tamaño*/
+footer li a {
+    padding:0px 5px;
+    font-size: 14px;
+}
+/*establece el color para los o y el tamaño*/
+footer p{
+    color:white;
+    font-size: 17px;
+}
+/*colo y tamaño al copyright*/
+#copy{
+    color:#848484;
+    font-size: 11px;
+    text-align: center;
+}
+/*cambia el color a los enlaces*/
+footer a{
+    color:#BDBDBD;
+}
+/*separa cada elemento del footer*/
+footer div.row{
+    margin-bottom: 20px;
+}
+/*centa el menu de footer*/
+footer ul{
+    margin-left: 23%;  
+}
